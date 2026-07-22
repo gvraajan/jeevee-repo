@@ -1,0 +1,7 @@
+# Core
+pydantic>=2.6,<3.0
+PyYAML>=6.0
+
+# Google Cloud (only needed for --live mode on your laptop with credentials)
+# The builder runs fine WITHOUT these in offline mode.
+google-cloud-compute>=1.19.0
